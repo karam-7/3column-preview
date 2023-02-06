@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%); 
+}
+
+.main{   
+    align-items: center;
+    display: flex ;
+    width: 900px;
+    margin-top: 130px;
+}
+
+.sed{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.lux{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.info{
+    padding: 30px 46px;
+    width: auto;
+    height: 100%;
+}
+
+.car-h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    font-style:normal;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    padding: 40px 0px;
+}
+
+.car-para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    padding: 10px 0px;
+}
+
+.car-btn, .car-btn1, .car-btn2{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    width: 80%;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.car-btn:hover, .car-btn1:hover, .car-btn2:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.car-btn{
+    color: hsl(31, 77%, 52%);
+}
+
+.car-btn1{
+    color: hsl(184, 100%, 22%);
+}
+
+.car-btn2{
+    color: hsl(179, 100%, 13%);
+}
+
+.foot, .foot a{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: hsl(31, 77%, 52%);
+    margin: 45px auto;
+    justify-content: center;
+}
+
+.foot a{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (max-width:935px){
+    .main{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
